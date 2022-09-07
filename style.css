@@ -1,0 +1,69 @@
+.main {
+  background-image: linear-gradient(
+    to right,
+    rgb(163, 245, 247),
+    rgb(128, 137, 240)
+  );
+}
+.container {
+  display: flex;
+  margin-top: 10%;
+  margin-left: 17%;
+  margin-right: 20%;
+}
+.layout {
+  background-color: #ffffff;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 5%;
+  margin: 2%;
+}
+#blogicon {
+  width: 300px;
+  height: 200px;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+#techstyle {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(245, 228, 191, 0.999),
+    rgb(238, 178, 46)
+  );
+  border-radius: 20%/80%;
+  font-size: small;
+  padding: 1% 1% 1% 1%;
+  width: max-content;
+  height: max-content;
+  color: white;
+  margin-left: 3%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#headline {
+  margin-top: 0%;
+  margin-left: 3%;
+  font-size: large;
+  font-weight: bold;
+}
+#stories {
+  margin-left: 3%;
+  color: gray;
+}
+#dp {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-left: 3%;
+  margin-top: 15%;
+}
+#nameuser {
+  margin-top: -12%;
+  margin-left: 15%;
+}
+#activity {
+  margin-top: -5%;
+  margin-left: 15%;
+  font-size: small;
+  color: gray;
+}
